@@ -119,6 +119,7 @@ set(SOURCE_FILES_REDIR
         udprelay.h
         redir.c
         redir.h
+        ${SOURCE_FILES_OBFS}
         ${SOURCE_FILES_SNI})
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
