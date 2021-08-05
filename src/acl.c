@@ -103,7 +103,7 @@ static int
 run_cmd(const char *cmd)
 {
     int ret = 0;
-    char cmdstring[256];
+    char cmdstring[256*2];
 
     sprintf(cmdstring, "%s\n", cmd);
     size_t len = strlen(cmdstring);
